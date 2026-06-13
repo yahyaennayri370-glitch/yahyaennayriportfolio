@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yahya Ennayri | Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="container nav-container">
+      <a href="#" class="logo">YE<span class="accent">.</span></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#hero" class="active">Accueil</a></li>
+        <li><a href="#about">À propos</a></li>
+        <li><a href="#skills">Compétences</a></li>
+        <li><a href="#experience">Expérience</a></li>
+        <li><a href="#projects">Projets</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section id="hero">
+    <div class="hero-bg"></div>
+    <div class="container hero-content">
+      <p class="hero-greeting">Bonjour, je suis</p>
+      <h1 class="hero-name">Yahya Ennayri</h1>
+      <p class="hero-title"><span id="typed"></span><span class="cursor">|</span></p>
+      <p class="hero-desc">Développeur Full-Stack & Photographe —<br>Je transforme des idées en expériences numériques.</p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn btn-primary">Voir mes projets</a>
+        <a href="#contact" class="btn btn-outline">Me contacter</a>
+      </div>
+      <div class="hero-socials">
+        <a href="mailto:yahyaennayri370@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+        <a href="https://linkedin.com/in/yahya-ennayri" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://github.com/yennayri-max" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <span>Découvrir</span>
+      <i class="fas fa-chevron-down"></i>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <div class="container">
+      <h2 class="section-title">À propos <span class="accent">de moi</span></h2>
+      <div class="about-grid">
+        <div class="about-card">
+          <div class="about-icon"><i class="fas fa-code"></i></div>
+          <h3>Qui suis-je ?</h3>
+          <p>Étudiant en Génie Logiciel passionné par le développement Full-Stack et la production audiovisuelle. Fort d'une expérience en gestion de projets techniques et créatifs, je m'adapte rapidement aux nouveaux environnements pour proposer des solutions innovantes et esthétiques.</p>
+        </div>
+        <div class="about-stats">
+          <div class="stat"><span class="stat-num" data-target="3">0</span><span class="stat-label">Années d'expérience</span></div>
+          <div class="stat"><span class="stat-num" data-target="15">0</span><span class="stat-label">Projets réalisés</span></div>
+          <div class="stat"><span class="stat-num" data-target="5">0</span><span class="stat-label">Technologies maîtrisées</span></div>
+          <div class="stat"><span class="stat-num" data-target="2">0</span><span class="stat-label">Livres scientifiques</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills">
+    <div class="container">
+      <h2 class="section-title">Mes <span class="accent">compétences</span></h2>
+      <div class="skills-categories">
+        <!-- Développement -->
+        <div class="skill-category">
+          <h3><i class="fas fa-laptop-code"></i> Développement</h3>
+          <div class="skill-item"><span>React.js</span><div class="skill-bar"><div class="skill-fill" data-progress="85"></div></div></div>
+          <div class="skill-item"><span>Node.js</span><div class="skill-bar"><div class="skill-fill" data-progress="80"></div></div></div>
+          <div class="skill-item"><span>PHP</span><div class="skill-bar"><div class="skill-fill" data-progress="75"></div></div></div>
+          <div class="skill-item"><span>Python</span><div class="skill-bar"><div class="skill-fill" data-progress="70"></div></div></div>
+          <div class="skill-item"><span>Flutter</span><div class="skill-bar"><div class="skill-fill" data-progress="65"></div></div></div>
+          <div class="skill-item"><span>Firebase</span><div class="skill-bar"><div class="skill-fill" data-progress="75"></div></div></div>
+          <div class="skill-item"><span>MySQL / MongoDB</span><div class="skill-bar"><div class="skill-fill" data-progress="80"></div></div></div>
+        </div>
+        <!-- Multimédia -->
+        <div class="skill-category">
+          <h3><i class="fas fa-camera"></i> Multimédia</h3>
+          <div class="skill-item"><span>Premiere Pro</span><div class="skill-bar"><div class="skill-fill" data-progress="90"></div></div></div>
+          <div class="skill-item"><span>DaVinci Resolve</span><div class="skill-bar"><div class="skill-fill" data-progress="85"></div></div></div>
+          <div class="skill-item"><span>After Effects</span><div class="skill-bar"><div class="skill-fill" data-progress="75"></div></div></div>
+          <div class="skill-item"><span>Photoshop</span><div class="skill-bar"><div class="skill-fill" data-progress="80"></div></div></div>
+          <div class="skill-item"><span>Lightroom</span><div class="skill-bar"><div class="skill-fill" data-progress="85"></div></div></div>
+        </div>
+        <!-- LaTeX & Publications -->
+        <div class="skill-category">
+          <h3><i class="fas fa-book"></i> LaTeX & Rédaction Scientifique</h3>
+          <div class="skill-item"><span>LaTeX (Rédaction avancée)</span><div class="skill-bar"><div class="skill-fill" data-progress="90"></div></div></div>
+          <div class="skill-item"><span>Livres scientifiques</span><div class="skill-bar"><div class="skill-fill" data-progress="85"></div></div></div>
+          <div class="skill-item"><span>Beamer (Présentations)</span><div class="skill-bar"><div class="skill-fill" data-progress="80"></div></div></div>
+          <div class="skill-item"><span>Diagrammes (TikZ)</span><div class="skill-bar"><div class="skill-fill" data-progress="70"></div></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience">
+    <div class="container">
+      <h2 class="section-title">Mon <span class="accent">parcours</span></h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">2026</span>
+            <h3>Stage en Développement Web</h3>
+            <p>Agence Signée Maroc</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">2026</span>
+            <h3>Stage en Photographie</h3>
+            <p>Agence Signée Maroc</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">2025</span>
+            <h3>Direction du Club Photo — FST Errachidia</h3>
+            <p>Gestion d'équipe, planification d'événements et formation technique des membres.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">2022 – 2024</span>
+            <h3>Fondateur & Responsable — Zoom Club</h3>
+            <p>Réalisation d'un mini-documentaire sur l'artisanat local du Tafilalet. Création de contenus digitaux (Reels, Motion Graphics) pour associations. Couverture photographique et vidéo de festivals culturels.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">2023</span>
+            <h3>Application Full-Stack</h3>
+            <p>Réalisation d'une plateforme web avec gestion d'inscriptions et d'administration sécurisée. Stack : React, Node.js, MongoDB.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects">
+    <div class="container">
+      <h2 class="section-title">Mes <span class="accent">projets</span></h2>
+      <div class="project-filters">
+        <button class="filter-btn active" data-filter="all">Tous</button>
+        <button class="filter-btn" data-filter="dev">Développement</button>
+        <button class="filter-btn" data-filter="multimedia">Multimédia</button>
+        <button class="filter-btn" data-filter="latex">LaTeX</button>
+      </div>
+      <div class="projects-grid">
+        <div class="project-card" data-category="dev">
+          <div class="project-icon"><i class="fas fa-tasks"></i></div>
+          <h3>Application de Gestion de Tâches</h3>
+          <p>Conception et développement d'une solution complète pour l'organisation et le suivi des activités.</p>
+          <span class="project-tag">2026</span>
+        </div>
+        <div class="project-card" data-category="dev">
+          <div class="project-icon"><i class="fas fa-calendar-alt"></i></div>
+          <h3>Plateforme de Gestion d'Événements</h3>
+          <p>Plateforme web de gestion d'événements pour la FST Errachidia.</p>
+          <span class="project-tag">2025</span>
+        </div>
+        <div class="project-card" data-category="dev">
+          <div class="project-icon"><i class="fas fa-globe"></i></div>
+          <h3>Application Full-Stack</h3>
+          <p>Plateforme web avec gestion d'inscriptions et d'administration sécurisée. React, Node.js, MongoDB.</p>
+          <span class="project-tag">2023</span>
+        </div>
+        <div class="project-card" data-category="multimedia">
+          <div class="project-icon"><i class="fas fa-film"></i></div>
+          <h3>Mini-Documentaire — Artisanat du Tafilalet</h3>
+          <p>Réalisation et montage d'un documentaire sur l'artisanat local.</p>
+          <span class="project-tag">2022–2024</span>
+        </div>
+        <div class="project-card" data-category="multimedia">
+          <div class="project-icon"><i class="fas fa-paint-brush"></i></div>
+          <h3>Motion Graphics & Reels</h3>
+          <p>Création de contenus digitaux et animations pour associations.</p>
+          <span class="project-tag">2022–2024</span>
+        </div>
+        <div class="project-card" data-category="latex">
+          <div class="project-icon"><i class="fas fa-book-open"></i></div>
+          <h3>Ouvrages Scientifiques</h3>
+          <p>Rédaction et publication de livres scientifiques avec LaTeX, maîtrise avancée de la typographie et de la mise en page académique.</p>
+          <span class="project-tag">2024–2026</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <div class="container">
+      <h2 class="section-title">Me <span class="accent">contacter</span></h2>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="contact-item">
+            <i class="fas fa-phone"></i>
+            <div><h4>Téléphone</h4><p>+212 7 76 50 67 02</p></div>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <div><h4>Email</h4><p>yahyaennayri370@gmail.com</p></div>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <div><h4>Localisation</h4><p>Errachidia, Maroc</p></div>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-language"></i>
+            <div><h4>Langues</h4><p>Arabe (Maternel) · Français (Excellent) · Anglais (Intermédiaire)</p></div>
+          </div>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <input type="hidden" name="access_key" value="15f1c714-e300-45eb-ad20-c382287f153d">
+          <input type="text" name="name" placeholder="Votre nom" required>
+          <input type="email" name="email" placeholder="Votre email" required>
+          <textarea rows="5" name="message" placeholder="Votre message" required></textarea>
+          <div class="form-status" id="formStatus"></div>
+          <div class="form-buttons">
+            <button type="submit" class="btn btn-primary"><i class="fas fa-envelope"></i> Envoyer</button>
+            <a href="https://wa.me/212776506702" target="_blank" class="btn btn-whatsapp"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container footer-content">
+      <p>&copy; 2026 Yahya Ennayri. Tous droits réservés.</p>
+      <div class="footer-socials">
+        <a href="mailto:yahyaennayri370@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+        <a href="https://linkedin.com/in/yahya-ennayri" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://github.com/yennayri-max" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
